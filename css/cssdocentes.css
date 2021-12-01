@@ -1,0 +1,236 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/docentes.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Rancho';
+}
+
+/* ENCABEZADO Y MENU HORIZONTAL */
+
+.encab {
+	background-color: orange;
+	width: 100%;
+	height: 10%;
+}
+
+.logohead {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+
+.menu{
+	background: #696969;
+	width: 45%;
+	height: 45px;
+	list-style: none;
+	padding: 0;
+	margin: auto;
+	font-family: "Rancho";
+	font-size: 20px;
+	box-shadow: 0px 5px 20px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 11px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
+ul{
+	text-align: center;
+}
+
+.barra{
+	padding: (15px 0 0 0)
+}
+
+.secc{
+	background: #2F4F4F;
+	margin: auto;
+	text-align: center;
+	font-family: "Rancho";
+	font-size: 30px;
+	width: 20%;
+	position: relative;
+	bottom: 29px;
+}
+
+.secc p{
+	color: white;
+	text-shadow: 2px 2px black;
+}
+
+.userinfo{
+	background: white;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	padding: 1% 1% 3% 1%;
+	right: 3%;
+	top: 5%;
+	text-align: center;
+	font-family: "Rancho";
+	font-size: 20px;
+	line-height: 0;
+	box-shadow: 0px 1px 5px;
+}
+
+.userinfo p {
+	color: #2F4F4F;
+}
+
+/* CONTENIDO */
+
+.menuizq{
+	position: absolute;
+	background-color: #FFFAF0;
+	height: 80%;
+	width: 20%;
+	margin-left: 20px;
+	margin-top: -1%;
+}
+
+.menuizq h1{
+	text-align: center;
+	font-size: 29px;
+	font-style: italic;
+	color: white;
+	text-shadow: 1px 1px 3px black;
+	background-color: #2F4F4F;
+	padding: 3px;
+	margin-top: -1px;
+}
+
+/* -- REGISTRAR DOCENTES -- */
+
+.registro-docente{
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.registro-docente a{
+	text-decoration: none;
+	color: black;
+	background-color: orange;
+	padding: 10px;
+	box-shadow: 2px 2px;
+}
+
+/* ----- */
+
+.cuadrodocs{
+	position: relative;
+	background-color: #FFFAF0;
+	height: 80%;
+	width: 74%;
+	right: -23%;
+	margin-top: -1%;
+}
+
+.cuadrodocs h1{
+	text-align: center;
+	background-color: #FF6347;
+	font-style: italic;
+	width: 100%;
+	color: white;
+	text-shadow: 1px 1px black;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+/* ------- PROFESORES ------- */
+/* DOCENTE 1 */
+.docn1{
+
+	margin-top: 2%;
+	background-color: white;
+	width: 100%;
+	height: 26%;
+	box-shadow: 0px 0px 2px;
+
+}
+
+.docn1 p{
+	font-size: 25px;
+	margin-left: 50px;
+}
+.docn1 b{
+	font-size: 25px;
+}
+
+.docn1 img{
+	position: absolute;
+	margin-left: 20px;
+	top: 13.5%;
+	border-radius: 60%;
+	width: 150px;
+	height: 150px;
+	box-shadow: 1px 1px 2px;
+}
+
+.institext{
+	margin-left: 80px;
+}
+
+/* PARTE INFERIOR */
+
+.separadorinf{
+	position: absolute;
+	width: 100%;
+	background-color: white;
+	opacity: 1%;
+	height: 2%;
+	bottom: -20%;
+}
+
+.closec{
+  position: fixed;
+  color: white;
+  bottom: 60px;
+  right: 5px;
+  width: 5%;
+  text-align: center;
+  background: #B22222;
+  border-radius: 20px;
+  font-family: "Rancho";
+  text-decoration: none;
+  font-size: 15px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 15px;
+  width: 100%;
+  background-color: #FF6347;
+  text-align: center;
+}
+
+h3, footer{ 
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 3px;
+	font-family: Rancho;
+	font-size: 17px;
+	height: 5%;
+}

@@ -1,0 +1,206 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/education.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.encab {
+	background-color: orange;
+	width: 100%;
+	height: 10%;
+}
+
+.logohead {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+
+.menu{
+	background: #696969;
+	width: 45%;
+	height: 45px;
+	list-style: none;
+	padding: 0;
+	margin: auto;
+	font-family: "Rancho";
+	font-size: 20px;
+	box-shadow: 0px 5px 20px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 11px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
+ul{
+	text-align: center;
+}
+
+.barra{
+	padding: (15px 0 0 0)
+}
+
+.secc{
+	background: white;
+	margin: auto;
+	text-align: center;
+	font-family: "Rancho";
+	font-size: 30px;
+	width: 20%;
+	position: relative;
+	bottom: 29px;
+}
+
+.sidel{
+	position: absolute;
+	width: 23%;
+	background: #FFFAF0;
+	height: 90%;
+	margin-left: 10px;
+}
+
+.sidel h2{
+	font-size: 35px;
+	font-family: "Rancho";
+	margin: auto;
+	text-align: center;
+	padding-top: 12px;
+	background: #FF6347;
+}
+
+.sidel p{
+	font-size: 30px;
+	font-family: "Rancho";
+	text-align: center;
+	margin-top: 27%;
+	padding: 10px;
+	bottom: -10%;
+}
+
+.gbd{
+	background: #FFFAF0;
+	position: relative;
+	width: 74%;
+	height: 60px;
+	left: 25%;
+	box-shadow: 0px 1px 10px;
+}
+
+.gbd h1{
+	text-align: center;
+	font-family: "Rancho";
+	font-size: 40px;
+	padding-top: 10px;
+	margin: auto;
+	background: #98FB98;
+}
+
+.news{
+	position: relative;
+	background: #FDF5E6;
+	height: 800px;
+	width: 98%;
+	top: -30%;
+	margin-left: 20px;
+}
+
+.news h2{
+	margin-left: 20px;
+	font-family: "Rancho";
+	font-size: 35px;
+	color: #FFA500;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.news p{
+	margin-left: 20px;
+	font-family: "Rancho";
+	font-size: 30px;
+	text-align: center;
+}
+
+.news img{
+	display: block;
+	position: relative;
+	bottom: 0%;
+	margin: auto;
+	width: 70%;
+	height: 60%;
+	box-shadow: 0px 1px 5px;
+}
+
+.userad{
+	font-family: "Rancho";
+	font-size: 30px;
+	text-align: center;
+}
+
+.userad {
+		background: white;
+}
+
+.userph{
+	background: white;
+	display: block;
+	border-radius: 50px;
+	margin: auto;
+	position: relative;
+	top: 20px;
+	height: 100px;
+}
+
+.closec{
+  position: fixed;
+  bottom: 60px;
+  right: 5px;
+  width: 5%;
+  text-align: center;
+  background: #B22222;
+  border-radius: 20px;
+  font-family: "Rancho";
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.closec p, a {
+	color: white;
+}
+
+footer {
+	position: fixed;
+	background-color: #FF6347;
+	height: 5px;
+	bottom: 0px;
+	width: 100%;
+}
+
+h3, footer{ 
+	text-align: center;
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 20px;
+	font-family: Rancho;
+	font-size: 17px;
+	height: 5%;
+}

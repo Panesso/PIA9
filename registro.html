@@ -1,0 +1,38 @@
+<html>
+<link rel="stylesheet" type="text/css" href="css/estilocv.css">
+<meta charset="utf-8">
+<title>EDOLUCIÓN — Nueva cuenta</title>
+<div class="login-page">
+  <div class="form">
+       <img src="img/logoleted.png" class="logoimg">
+   
+   <form class="login-form" method="POST" action="php/registro.php">
+      <input type="text" name="nombre" placeholder="Nombre" required="">
+      <input type="text" name="apellido" placeholder="Apellido" required="">
+      <input type="text" name="nickname" placeholder="Nickname" required="">
+      <input type="password" name="password" placeholder="Contraseña" required="">
+      <input type="email" name="correo_electronico" placeholder="Correo electrónico" required="">
+      
+      <select name="grado">
+        <option>--Seleccione el grado--</option>
+        <option value='Primero'>1. PRIMERO</option>
+        <option value='Segundo'>2. SEGUNDO</option>
+        <option value='Tercero'>3. TERCERO</option>
+        <option value='Cuarto'>4. CUARTO</option>
+        <option value='Quinto'>5. QUINTO</option>
+        <option value='Sexto'>6. SEXTO</option>
+        <option value='Septimo'>7. SÉPTIMO</option>
+        <option value='Octavo'>8. OCTAVO</option>
+        <option value='Noveno'>9. NOVENO</option>
+        <option value='Decimo'>10. DÉCIMO</option>
+        <option value='Undecimo'>11. UNDÉCIMO</option>
+      </select>
+
+      <button>CREAR CUENTA</button>
+      
+    </form>
+    <p class="message">¿Ya estás registrado? <a href="index.html">Inicia sesión</a></p>
+  </div>
+</div>
+
+</html>

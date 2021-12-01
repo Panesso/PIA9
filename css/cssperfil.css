@@ -1,0 +1,258 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/education.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.encab {
+	background-color: orange;
+	width: 100%;
+	height: 10%;
+}
+
+.logohead {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+}
+
+.menu{
+	background: #696969;
+	width: 45%;
+	height: 45px;
+	list-style: none;
+	padding: 0;
+	margin: auto;
+	font-family: "Rancho";
+	font-size: 20px;
+	box-shadow: 0px 5px 20px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 11px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+
+ul{
+	text-align: center;
+}
+
+.barra{
+	padding: (15px 0 0 0)
+}
+
+.secc{
+	background: white;
+	margin: auto;
+	text-align: center;
+	font-family: "Rancho";
+	font-size: 30px;
+	width: 20%;
+	position: relative;
+	bottom: 29px;
+}
+
+.cont-perfil{
+	background: white;
+	margin: auto;
+	height: 45%;
+	width: 90%;
+	opacity: 100%;
+}
+
+.vertbar{
+	background: orange;
+	height: 100%;
+	width: 4px;
+	margin: auto;
+}
+
+.fpf{
+	background: white;
+	border-radius: 80px;
+  	position: absolute;
+  	top: 40%;
+  	left: 7%;
+}
+
+.usname{
+	position: absolute;
+	font-family: "Rancho";
+	font-size: 37px;
+	display: block;
+	top: 30%;
+	left: 19%;
+}
+
+.materias{
+	position: absolute;
+	font-family: "Rancho";
+	font-size: 22px;
+	display: block;
+	top: 39%;
+	left: 19%;
+	color: #6495ED;
+	line-height: 0.5;
+}
+
+
+.nivmat{
+	position: absolute;
+	font-family: "Rancho";
+	font-size: 22px;
+	display: block;
+	line-height: 0.73;
+	top: 39%;
+	left: 27%;
+	color: black;
+}
+
+.estpf {
+	display: block;
+	position: absolute;
+	font-family: "Rancho";
+	font-size: 22px;
+	display: block;
+	line-height: 0.2;
+	top: 23%;
+	right: 8%;
+	width: 40%;
+}
+
+.estpf input{
+font-family: "Arial";
+  outline: 0;
+  background: #C0C0C0;
+  width: 100%;
+  border: 0.5;
+  padding: 9px;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: right;
+}
+
+.estpf p{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 8px;
+}
+
+.estpf button{
+	font-family: "Rancho";
+	text-transform: uppercase;
+	position: relative;
+	right: -50%;
+	outline: 0;
+	background: #4682B4;
+	width: 50%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 17px;
+
+
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+.estpf h2{
+	font-family: "Rancho";
+	font-size: 40px;
+	text-align: center;
+	margin: center;
+
+	right: 36%;
+}
+
+.grado{
+	font-family: "Rancho";
+	text-transform: uppercase;
+	display: block;
+	margin: auto;
+	background: #6495ED;
+	width: 50%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 17px;
+	-webkit-transition: all 0.3 ease;
+  	transition: all 0.3 ease;
+  	cursor: pointer;
+}
+
+.back{
+	position: absolute;
+	bottom: -20%;
+	left: 75%;
+	width: 25%;
+	height: 20%;
+	background: #B22222;
+	text-decoration: none;
+}
+
+.back p{
+	position: relative;
+	color: white;
+	text-align: center;
+	font-family: "Rancho";
+	text-decoration: none;
+	font-size: 20px;
+	top: 32%;
+}
+
+
+.closec{
+position: absolute;
+color: white;
+  bottom: 60px;
+  right: 5px;
+  width: 5%;
+  text-align: center;
+  background: #B22222;
+  border-radius: 20px;
+  font-family: "Rancho";
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.closec p a {
+	color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 15px;
+  width: 100%;
+  background-color: #FF6347;
+  text-align: center;
+}
+
+h3, footer{ 
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 3px;
+	font-family: Rancho;
+	font-size: 17px;
+	height: 5%;
+}

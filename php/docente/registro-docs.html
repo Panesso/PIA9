@@ -1,0 +1,27 @@
+<html>
+<link rel="stylesheet" type="text/css" href="../../css/estilocv.css">
+<meta charset="utf-8">
+<title>EDOLUCIÓN — Nueva cuenta</title>
+<div class="registro-docentes">
+  <div class="form">
+       <div class="regdocs">
+          <h2><img src="../../corto-edolucion.png"> REGISTRA UN <b style="color:#808000";>DOCENTE NUEVO</b></h2>
+       </div>
+   
+   <form class="registro-docs" method="POST" action="registro-docs.php">
+      <input type="text" name="nombre" placeholder="Nombre" required="">
+      <input type="text" name="documento_identidad" placeholder="Documento de Identidad" required="">
+      <input type="text" name="materia" placeholder="Materia">
+      <select name="institucion">
+        <option>--SELECCIONE LA INSTITUCIÓN--</option>
+        <option value='colegio1'>I.E. FEDERICO OZANAM</option>
+      </select>
+
+      <button>REGISTRAR DOCENTE</button>
+      
+    </form>
+    <p class="backmsg">Pulsa <a href="../DOCENTES.php"><b>aquí</b></a> para volver atrás.</p>
+  </div>
+</div>
+
+</html>
